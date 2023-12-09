@@ -1,0 +1,2 @@
+This Python script is designed as a simple MAC address changer that interacts with system commands using the subprocess module. It takes user input for the interface and the new MAC address, disables the specified network interface, changes the MAC address, and then re-enables the interface. After the process, it verifies whether the MAC address change was successful. The usage is as follows;
+python mac_changer.py --interface eth0 --mac 00:00:00:00:00:00(new mac adress) 
